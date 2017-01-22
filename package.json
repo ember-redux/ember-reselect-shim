@@ -1,18 +1,21 @@
 {
   "name": "ember-reselect-shim",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "reselect for Ember apps",
   "keywords": [
     "ember-addon",
     "reselect"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Toran Billups (https://github.com/toranb)",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ember-redux/ember-reselect-shim.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
@@ -46,7 +49,7 @@
     "loader.js": "^4.0.10"
   },
   "engines": {
-    "node": ">= 0.12.0"
+    "node": ">= 5.0.0"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"

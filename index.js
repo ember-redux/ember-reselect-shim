@@ -5,7 +5,7 @@ const mergeTrees = require('broccoli-merge-trees')
 const path = require('path')
 
 module.exports = {
-  name: 'ember-reselect-shim',
+  name: 'reselect',
   treeForAddon (tree) {
     const reselectPath = path.dirname(require.resolve('reselect/src/index.js'))
     let reselectTree = this.treeGenerator(reselectPath)

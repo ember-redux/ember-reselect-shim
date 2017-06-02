@@ -1,6 +1,6 @@
 {
   "name": "ember-reselect-shim",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "reselect for Ember apps",
   "keywords": [
     "ember-addon",

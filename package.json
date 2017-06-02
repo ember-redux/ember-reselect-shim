@@ -42,7 +42,7 @@
     "ember-resolver": "^4.0.0",
     "ember-cli-shims": "^1.1.0",
     "ember-source": "~2.13.0",
-    "reselect": "2.5.4",
+    "reselect": "3.0.1",
     "loader.js": "^4.2.3"
   },
   "engines": {

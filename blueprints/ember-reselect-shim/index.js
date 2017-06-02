@@ -1,7 +1,7 @@
 module.exports = {
   afterInstall: function () {
     return this.addPackagesToProject([
-      {name: 'reselect', target: '2.5.4'}
+      {name: 'reselect', target: '3.0.1'}
     ])
   },
 
